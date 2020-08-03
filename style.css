@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: SF UI Display;
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+header{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 140px;
+}
+
+
+header ul{
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+}
+header ul li{
+    display: inline;
+    padding: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #585858;
+}
+header ul li a:hover{
+    color: #101010;
+    text-decoration: underline;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+header div li {
+    padding-right: 50px;
+    list-style: none;
+}
+.consult {
+    background: #F2AA4C;
+    color: #FFFFFF;;
+    border: 1px;
+    border-radius: 5px;
+    padding: 4px 24px;
+}
+main {
+    padding-right: 8em;
+    padding-left: 8em;
+}
+.dream {
+    padding-top: 100px;
+}
+.dream h1 {
+    line-height: 94px;
+    font-weight: 700;
+    font-size: 5rem;
+    font-family: New York Extra Large;
+    font-style: normal;
+    letter-spacing: -0.04em;
+    color: #000000;    
+}
+#yellowtext {
+    color: #FFB347;
+}
+.sub {
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+.leftsub {
+    width: 250px; 
+}
+.leftsub p{
+    margin-top: 40px;
+}
+.leftsub button{
+    background: #FFB347;
+    border: 1px;
+    border-radius: 5px;
+    padding: 8px 32px;
+    margin-top: 14px;
+    color: white;
+}
+.rightsub{
+    width: 60%;
+}
+h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 3em;
+    letter-spacing: -0.04em;
+}
+.images{
+    display: flex;
+}
+.images img{
+    width: 300px;
+    height: 420px;
+    padding: 6px;
+}
+.build{
+    padding-top: 45px;
+}
+.buildneeds{
+    margin-top: 40px;
+    font-size: 2em;
+    font-family: New York Extra Large;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.04em;
+    color: #000000;
+}
+.meetingimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.meetingimage img {
+    width: 535px;
+    height: 610px;
+    left: 165px;
+    top: 1887px;
+}
+
+.points {
+    width: 40%;
+    padding-top: 20px;
+}
+
+.firstpoint,
+.secondpoint,
+.thirdpoint {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.firsticon,
+.secondicon,
+.thirdicon {
+    margin-right: 40px;
+}
+
+.shield {
+    transform: scale(3);
+    position: absolute;
+    z-index: 1;
+}
+
+.check {
+    position: absolute;
+    z-index: 5;
+}
+
+
+
+
+.points button {
+    background: #ffb347;
+    border: 1px;
+    border-radius: 5px;
+    padding: 14px;
+    margin-top: 14px;
+    color: white;
+}
+.good {
+    margin-top: 40px;
+}
+.toogood {
+    text-align: start;
+}
+
+.goodquote {
+    margin-left: 500px;
+    width: 40%;
+    width: 765px;
+    height: 204px;
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 160%;
+    letter-spacing: 0.01em;
+    color: #000000;  
+}
+.quotes {
+    padding-left: 460px;
+    margin-top: 35px;
+    transform: scale(3);
+}
+.realize {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.realize img {
+    margin-top: 45px;
+    width: 40%;
+}
+.realizedreamtxt {
+    width: 50%;
+    padding-top: 100px;
+    text-align: start;
+    font-family: New York Extra Large;
+    font-style: normal;
+    letter-spacing: -0.04em;
+    color: #000000;   
+}
+.realize button {
+    background: #ffb347;
+    border: 1px;
+    border-radius: 5px;
+    padding: 14px;
+    margin-top: 14px;
+    margin-left: 150px;
+    color: white;
+}
+.contact {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contacttext {
+    line-height: 30px;
+    font-family: SF UI Display;
+    font-style: normal;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+    
+.contactimages {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(12, 1fr);
+    width: 50%;
+}
+.image-1 {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 50%;
+    z-index: 1;
+    width=:515px;
+    height:341px; 
+}
+.image-2 {
+    grid-column: 4/-1;
+    grid-row: 1;
+     width:727px;
+    height:481px;
+}
+
+.ourpartners {
+    text-align: start;
+}
+.partnersimg {
+    display: flex;
+    justify-content: space-around;
+}
+.partnersimg img {
+    filter: grayscale(100%);
+}
+footer {
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li {
+    font-family: SF UI Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #585858;
+    display: inline;
+    padding: 50px;
+    right: 60px;
+}
+footer ul a {
+    text-decoration: none;
+    text-align: end;
+    color: #585858;
+}
+
+
+
+
+
+
+
+
+
